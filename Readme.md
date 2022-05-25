@@ -1,8 +1,9 @@
+## Open file config alias
 ```
 vi /etc/apache2/mods-available/alias.conf
 ```
 
-Comment out this
+## Comment out this
 ```
  #Alias /icons/ "/usr/share/apache2/icons/"
 
@@ -13,7 +14,7 @@ Comment out this
 #</Directory>
 ```
 
-restart apache2
+## restart apache2
 ```
 systemctl restart apache2
 ```
